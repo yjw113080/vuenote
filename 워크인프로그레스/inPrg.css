@@ -1,27 +1,84 @@
 body {
+    width: 100%;
     color: #6e6e6e;
+    font-family: 'APPLE SD Gothic NEO';
+    overflow: hidden;
 }
 
 h1 {
     color: #22D6B2;
 }
 
-input [type="text"] {
-    width: 300px;
-    height: 50px;
-    border: 0px;
-    background:#fff;
+#menu {
+    color: #22D6B2;
+    font-size: 20px;
+
 }
 
-button {
-    color: #6e6e6e;
-    font-size: 85%;
-    background: transparent; 
-    border: 2px solid #22D6B2;
-    border-radius: 6px; 
+
+
+input[type="text"] {
+    width: 400px;
+    padding: 10px 20px;
+    border-color: transparent;
+    border-bottom: 1px solid darkgrey;
+    font-size: 16px;
 }
 
-button:hover {
+input[type=submit] {
     background-color: #22D6B2;
-    color: white;
-}
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size:16px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 10px;
+    width: 100px
+  }
+
+textarea.myCode {
+    width: 500px;
+    float: left;
+    min-height: 700px;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+    background: #f4f4f9;
+    outline: none;
+    font-family: Courier, sans-serif;
+    font-size: 14px;
+  }
+  
+  textarea.bestCode {
+    width: 500px;
+    float: left;
+    min-height: 700px;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+    background: #f4f4f9;
+    outline: none;
+    font-family: Courier, sans-serif;
+    font-size: 14px;
+  }
+
+  .pad-input {
+    background: transparent;
+    line-height: 2rem;
+    font-size: 1rem;
+    border: 0;
+    width: 500px;
+    min-width: 700px;
+    resize: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #555;
+    letter-spacing: .04em;
+    background: #ffffcc;
+  }
+
+  .pad-input:focus {
+    outline: none;
+  }

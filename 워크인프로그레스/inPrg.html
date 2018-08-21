@@ -10,12 +10,13 @@
 <body>
     <header>
         <h1>염전의 알고리즘 오답노트</h1>
-        <form action="">
-            <input type="text" name="test-title" placeholder="TITLE">
-            Date:
-            Level:
-            <button>SAVE</button>
+        <form>
+            <img src="../static/menu.png" height="35px" width="35px">
+            <input type="text" name="title" placeholder="TITLE">
+            Level: <input type="number" name="level">  
+            <input type="submit" name = "save" value="SAVE">
         </form>
+
         
     </header>
 
@@ -23,10 +24,8 @@
 
     </div>
 
-    <div id="mycode"></div>
-    <div id="bestcode"></div>
-    <div id="lessons"></div>
-
-
+    <textarea class="myCode"></textarea>
+    <textarea class="bestCode"></textarea>
+    <textarea id="pad-input" class="pad-input" placeholder="Start typing here..."></textarea>
 </body>
 </html>
